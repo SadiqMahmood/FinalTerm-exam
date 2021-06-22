@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+  h1 Signup
+  form(action="/register",method="post")
+        .form-group
+            label(for="name") Name
+            input#name(type="text", class="form-control col-md-4", name="name")
+        .form-group
+            label(for="email") Email
+            input#email(type="text", class="form-control col-md-4", name="email")
+        .form-group
+            label(for="password") Password
+            input#price(type="password", class="form-control col-md-4", name="password")
+        input(type="submit", class="btn btn-info" value="Register")

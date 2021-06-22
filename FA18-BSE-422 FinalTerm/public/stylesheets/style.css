@@ -1,0 +1,26 @@
+
+h1 {
+  padding-top: 70px;
+  padding-left: 520px;
+  padding-bottom: 70px;
+}
+body {
+  margin: 0% !important;
+  font: 14px "Playfair" !important;
+}
+
+.table thead tr th {
+  color: white;
+}
+.heading {
+  padding-left: 430px;
+}
+.btn {
+
+  border: 2px solid darkcyan !important;
+  margin-right: 30px;
+  background-color: white !important;
+  color: darkcyan !important;
+  
+}
+
